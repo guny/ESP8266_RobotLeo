@@ -1,0 +1,13 @@
+---- user_ser_hostname Matches (2 in 2 files) ----
+user_init in user_main.c (E:\RobotLeo\Wi-Fi\WiFi_Module_ESP8266\code\ESP8266_NONOS_DATASWITCH\app\user) : 
+
+	user_ser_hostname();
+#else
+	wifi_set_opmode(STATIONAP_MODE);
+#endif
+user_smartconfig.c (E:\RobotLeo\Wi-Fi\WiFi_Module_ESP8266\code\ESP8266_NONOS_DATASWITCH\app\user) line 171 : 
+
+ICACHE_FLASH_ATTR void user_ser_hostname(void)
+{
+	char hwaddr[6];
+	char wifi_name[64];
